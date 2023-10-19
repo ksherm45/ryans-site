@@ -1,0 +1,230 @@
+body {
+
+  background-color: #f9f6fb;
+  color: #201a33;
+}
+
+
+.Navbar {
+
+
+  display: flex; justify-content: center;
+  background-color: rgb(13, 13, 13);
+  color: beige;
+  height: 90px;
+  width: 100%;
+
+}
+
+
+.iconContainer{
+
+  display: flex; justify-content: space-evenly;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+.Control {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  
+
+}
+
+.Profile {
+
+display: flex; justify-content: center;
+
+}
+
+.box {
+  height: 250px;
+  width: 20%;
+  background-color:#360376;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  
+}
+.box2 {
+  height: 20.2vh;
+  width: 40%;
+  background-color:#037607;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;  
+  align-items: center; 
+  display: block; justify-content: center;
+}
+
+.Homepage {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;}
+
+.Content {
+
+  display: flex; justify-content: center;
+  justify-content: space-evenly;
+  margin: 2em;
+
+}
+
+.Projects {
+
+  display: flex; 
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+
+.thumbnail {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  position: relative;
+}
+
+.ProjectDesc {
+  text-align: center;
+  width: 80%;
+  font-weight: bold;
+  padding-bottom: 20%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.thumbnail:hover {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px;
+  display: flex;
+  font-size: 20px;
+  margin: 1px 5px 1px 30px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: underline;
+  border-radius: 10px;
+  cursor: grab;
+  
+  
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.Link-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Link-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration:darkorange;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.Link-content a:hover {background-color: #db0505}
+
+/* Show the dropdown menu on hover */
+.Link:hover .Link-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.Link:hover .Link {
+  background-color: #0ddf14;
+}
+
+.flex  {
+
+  display: flex;
+  justify-content: space-around flex-end ;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+
+#neon {
+  position: relative;
+  padding: 10px 10px;
+  margin: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#neon:hover {
+  background: crimson;
+  color: #111;
+  box-shadow: 0 0 50px crimson;
+}
+#neon:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid rgb(255, 5, 226);
+  border-left: 2px solid rgb(255, 5, 226); 
+  transition: 0.5s;
+}
+#neon:hover:before {
+  width: 100%;
+  height: 100%;
+}
+#neon:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid rgb(255, 5, 226);
+  border-right: 2px solid rgb(255, 5, 226); 
+  transition: 0.5s;
+}
+#neon:hover:after {
+  width: 100%;
+  height: 100%;
+}

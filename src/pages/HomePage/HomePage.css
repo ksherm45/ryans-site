@@ -1,0 +1,18 @@
+.Control {
+    width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+    
+  }
+
+  .box2 {
+
+    height: 250px;
+    width: 50%;
+    background-color:#037663;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;  }
