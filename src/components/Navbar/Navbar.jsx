@@ -11,12 +11,12 @@ function Navbar() {
     <nav className="Navbar">
 
       <Link className="Link" to="/">
-      <text className="NavTitle">32 and You</text>
+      <text className="NavTitle">32 & YOU</text>
       </Link>
 
   <div class="Link">
   <Link className="Link" to="/services">
-  <button>Services</button>
+  <button>SERVICES</button>
   </Link>
   <div class="Link-content">
     <Link to="/smallgroup"> Small Group</Link>
@@ -26,15 +26,15 @@ function Navbar() {
   </div>
 
       <Link className="Link" to="/professionalcareer">
-        <button>Professional Career</button>
+        <button>PROFESSIONAL CAREER</button>
       </Link>
 
       <Link className="Link" to="/collegecareer">
-        <button>College Career</button>
+        <button>COLLEGE CAREER</button>
       </Link>
 
       <Link className="Link" to="/contact">
-        <button>Contact</button>
+        <button>CONTACT</button>
       </Link>
 
      

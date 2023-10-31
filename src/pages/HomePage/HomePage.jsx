@@ -4,8 +4,35 @@ import RyanHeadshot from '../../images/RyanHeadshot.jpeg';
 function Homepage() {
   return (
   <div>
-    <h1 className='Homepage'>Profile</h1>
-      <div className='Profile'> <img src={RyanHeadshot} height={250} width={200} alt = 'Profile Pic'/></div>
+    <h1 className='Homepage'> </h1>
+      <div className='Profile'> <img src={RyanHeadshot} height={320} width={250}  alt = 'Profile Pic'/></div>
+
+<section className='Control'>
+    <div className='box2'>
+      <h1>INTRO</h1>
+      <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
+    </div>
+</section>
+<section className='Control'>
+
+        <div className='box'>
+        <h1> STREET CRED </h1>
+        <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
+        </div>
+        
+        <div className='box'>
+        <h1>STYLE OF COACHING</h1>
+        <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
+        
+        </div>
+
+        <div className='box'>
+        <h1>OTHER BOX</h1>
+        <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
+        </div>
+
+
+</section>
 
 <section className='Control'>
     <div className='box2'>
@@ -35,6 +62,8 @@ function Homepage() {
 
 
 </section>
+
+
 
       
 
