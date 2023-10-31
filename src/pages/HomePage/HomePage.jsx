@@ -1,5 +1,5 @@
 import React from 'react';
-import RyanHeadshot from '../../images/RyanHeadshot.jpeg';
+import RyanHeadshot from '../../images/Ryan1.jpeg';
 
 function Homepage() {
   return (

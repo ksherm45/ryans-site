@@ -21,6 +21,7 @@ p {
   color: beige;
   height: 90px;
   width: 100%;
+  border: solid 5px rgb(249, 141, 34);
 
 }
 
@@ -39,6 +40,11 @@ p {
   justify-content: space-evenly;
   
 
+}
+
+img {
+
+  border:  5px solid rgb(249, 141, 34);
 }
 
 .Profile {
