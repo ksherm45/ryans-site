@@ -1,6 +1,6 @@
 body {
-
-  background-color: #e9e6c7;
+  height: vh 100%;
+  background: linear-gradient(to bottom right, #FFD700, #FFA500, #F0E68C);
   color: #201a33;
 }
 h1{
@@ -17,7 +17,7 @@ p {
 
 
   display: flex; justify-content: center;
-  background-color:#119fd8;
+  background-color:#75cdf0;
   color: beige;
   height: 90px;
   width: 100%;
@@ -33,6 +33,15 @@ p {
 }
 
 .Control {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  
+}
+
+.training {
   width: 100%;
   height: auto;
   display: flex;
@@ -56,7 +65,7 @@ padding-top: 10px;
 .box {
   height: 250px;
   width: 20%;
-  background-color:#119fd8;
+  background-color:#75cdf0;
   margin: 20px;
   border-radius: 15px;
   padding: 10px;
@@ -73,7 +82,7 @@ padding-top: 10px;
 .box2 {
   height: 20.2vh;
   width: 40%;
-  background-color:#119fd8;
+  background-color:#75cdf0;
   margin: 20px;
   border-radius: 15px;
   padding: 10px;

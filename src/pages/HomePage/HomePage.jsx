@@ -7,13 +7,13 @@ function Homepage() {
     <h1 className='Homepage'> </h1>
       <div className='Profile'> <img src={RyanHeadshot} height={320} width={250}  alt = 'Profile Pic'/></div>
 
-<section className='Control'>
+<section className='Control' id='intro'>
     <div className='box2'>
       <h1>INTRO</h1>
       <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
     </div>
 </section>
-<section className='Control'>
+<section className='Control' id='info'>
 
         <div className='box'>
         <h1> STREET CRED </h1>
@@ -60,6 +60,14 @@ function Homepage() {
         <p>I am a American currently based in Santander, Spain. As a professional basketball player for the last 7 years I have been on the move but I am ready to hang my laces up and move to where ever I can pursue my career!</p>
         </div>
 
+</section>
+
+<section className='Control' id='training'>
+
+  <div className='box'></div>
+  <div className='box'></div>
+
+  <div className='box'></div>
 
 </section>
 
