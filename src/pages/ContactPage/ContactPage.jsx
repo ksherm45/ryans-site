@@ -31,10 +31,6 @@ function ContactPage() {
             />
        </div>
 
-       <body className='iconContainer'>
-     
-    </body>
-
        </div>
 
   )}

@@ -15,13 +15,22 @@ p {
 
 .Navbar {
 
-
   display: flex; justify-content: center;
   background-color:#75cdf0;
   color: beige;
-  height: 90px;
-  width: 100%;
+  height: 75px;
+  width: 70%;
   border: solid 5px rgb(249, 141, 34);
+
+  align-items: center;
+	/* position: fixed; */
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		border-radius: 200px;
+		z-index: 9;
+		backdrop-filter: blur(5px);
+		transition: 10s all cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
 
 }
 
@@ -99,6 +108,26 @@ padding-top: 10px;
   transition: ease-in;
 }
 
+.box3 {
+  height: 20.2vh;
+  width: 40%;
+  background-color:#75cdf0;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;  
+  align-items: center; 
+  display: block; justify-content: center;
+  border:  5px solid rgb(249, 141, 34);
+
+}
+.box3:hover{
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(249, 141, 34) ;
+  transition: ease-in;
+}
+
 .Homepage {
 
   width: 100%;
@@ -165,7 +194,7 @@ button {
   white-space: nowrap;
   text-decoration:solid;
   border-radius: 10px;
-  cursor: grab;
+  font-family: sans-serif;
 }
 
 button:hover {
@@ -211,28 +240,15 @@ button:hover {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 
-.flex  {
 
-  display: flex;
-  justify-content: space-around flex-end ;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
+
+
+
+
   
-}
+
+    
 
 
-#neon {
-  position: relative;
-  /* padding: 5px 5px;
-  margin: 10px 15px; */
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-/* #neon:hover {
-  background: crimson;
-  color: #111;
-  box-shadow: 0 0 20px crimson;
-} */
+
+

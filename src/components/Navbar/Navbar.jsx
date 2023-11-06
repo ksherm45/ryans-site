@@ -1,23 +1,25 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-
+import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
+import Headroom from "react-headroom";
 
 function Navbar() {
   // Subscribe to the AuthContext to gain access to
   // the values from AuthContext.Provider's `value` prop
 
   return (
+<Headroom>
+    <nav className="Navbar" id="navs">
 
-    <nav className="Navbar">
-
-      <Link className="Link" to="/">
+      <HashLink className="Link" smooth to="/#top">
       <text className="NavTitle">32 & YOU</text>
-      </Link>
+      </HashLink>
 
   <div class="Link">
-  <Link className="Link" to="/services">
+  <HashLink className="Link" smooth to="/#training">
   <button>SERVICES</button>
-  </Link>
+  </HashLink>
   <div class="Link-content">
     <Link to="/smallgroup"> Small Group</Link>
     <Link to="/largegroup">Large Group</Link>
@@ -29,16 +31,15 @@ function Navbar() {
         <button>PROFESSIONAL CAREER</button>
       </Link>
 
-      <Link className="Link" to="/collegecareer">
-        <button>COLLEGE CAREER</button>
+      <Link className="Link" to="/career">
+        <button>CAREER</button>
       </Link>
 
-      <Link className="Link" to="/contact">
+      <HashLink className="Link" smooth to="/#contact">
         <button>CONTACT</button>
-      </Link>
-
-     
+      </HashLink>
     </nav>
+    </Headroom>
   );
 }
 

@@ -1,11 +1,18 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 import RyanHeadshot from '../../images/Ryan1.jpeg';
+import { SocialIcon } from 'react-social-icons';
+import Ryan2 from '../../images/Ryan2.jpeg'
+
 
 function Homepage() {
   return (
-  <div>
+  <div id='page' className=''>
     <h1 className='Homepage'> </h1>
-      <div className='Profile'> <img src={RyanHeadshot} height={320} width={250}  alt = 'Profile Pic'/></div>
+      <div className='Profile'>
+       <img src={RyanHeadshot} height={400} width={320}  alt = 'Profile Pic'/>
+      </div>
 
 <section className='Control' id='intro'>
     <div className='box2'>
@@ -31,8 +38,11 @@ function Homepage() {
         <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
         </div>
 
-
 </section>
+
+<div className='Profile'>
+       <img src={Ryan2} height={400} width={320}  alt = 'Profile Pic'/>
+      </div>
 
 <section className='Control'>
     <div className='box2'>
@@ -40,34 +50,51 @@ function Homepage() {
       <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
     </div>
 </section>
-<section className='Control'>
+<section className='Control' id='career'>
 
-        <div className='box'>
+        <div className='box3'>
         <h1> TECH STACK </h1>
         <p>MONGO, EXPRESS, REACT, NODEJS </p>
         <p>As a junior developer I am confident in my ability and skills within my stack.</p>
         </div>
         
-        <div className='box'>
+        <div className='box3'>
         <h1>MISSION</h1>
         <p>To help spread joy and compassion through technical solutions!</p>
         <p>Being able to work with a team and bring visions to reality is what excites me the most!</p>
         
         </div>
 
-        <div className='box'>
-        <h1>LOCATION</h1>
-        <p>I am a American currently based in Santander, Spain. As a professional basketball player for the last 7 years I have been on the move but I am ready to hang my laces up and move to where ever I can pursue my career!</p>
-        </div>
 
 </section>
 
-<section className='Control' id='training'>
+<section className='Control' id='contact'>
 
-  <div className='box'></div>
-  <div className='box'></div>
+<div className='iconContainer'>
+      <SocialIcon
+              url="https://www.linkedin.com/in/kaj-bjoern-sherman/"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 100, width: 100 }}
+            />
+      
+      <SocialIcon
+              url="https://github.com/ksherm45"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 100, width: 100 }}
+            />
 
-  <div className='box'></div>
+       <SocialIcon
+              url="https://www.instagram.com/ryannicholas32/?hl=en"
+              className="mr-4"
+              target="_blank"
+              fgColor="#fff"
+              style={{ height: 100, width: 100 }}
+            />
+       </div>
 
 </section>
 
