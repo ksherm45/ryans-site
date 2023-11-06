@@ -1,7 +1,6 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import { NavHashLink } from 'react-router-hash-link';
 import Headroom from "react-headroom";
 
 function Navbar() {
