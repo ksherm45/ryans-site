@@ -1,6 +1,4 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
-import { NavHashLink } from 'react-router-hash-link';
 import RyanHeadshot from '../../images/Ryan1.jpeg';
 import { SocialIcon } from 'react-social-icons';
 import Ryan2 from '../../images/Ryan2.jpeg'
