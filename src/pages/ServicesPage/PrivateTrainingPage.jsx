@@ -10,10 +10,10 @@ function PrivateTrainingPage() {
    </div>
 
 <section className='Control' id='intro'>
- <div className='box2'>
-   <h1>INTRO</h1>
-   <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
- </div>
+ <div className='box3'>
+   <h1>PRIVATE TRAINING</h1>
+<p>Looking to receive my full-attention and improve by competing against my drills and yourself? Then private training is for you. I recommend mixing in private and group sessions to receive the best of both worlds</p>
+</div>
 </section>
 </div> 
  )

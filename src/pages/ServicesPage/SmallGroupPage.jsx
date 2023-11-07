@@ -10,9 +10,9 @@ function SmallGroupPage() {
 
 <section className='Control' id='intro'>
  <div className='box2'>
-   <h1>INTRO</h1>
-   <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
- </div>
+   <h1>SMALL GROUP</h1>
+<p>Groups of 2-6 players is a good way to receive the attention of a private session along with the competitive nature that a group session provides </p>
+</div>
 </section>
 </div>  )
 }

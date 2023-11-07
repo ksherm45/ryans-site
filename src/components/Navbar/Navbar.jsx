@@ -25,14 +25,9 @@ function Navbar() {
     <Link to="/privatetraining">Private Training</Link>
   </div>
   </div>
-
-      <Link className="Link" to="/professionalcareer">
-        <button>PROFESSIONAL CAREER</button>
-      </Link>
-
-      <Link className="Link" to="/career">
+      <HashLink className="Link" smooth to="/#career">
         <button>CAREER</button>
-      </Link>
+      </HashLink>
 
       <HashLink className="Link" smooth to="/#contact">
         <button>CONTACT</button>

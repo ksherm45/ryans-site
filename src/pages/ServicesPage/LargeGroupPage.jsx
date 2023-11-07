@@ -10,9 +10,9 @@ function LargeGroupPage() {
 
 <section className='Control' id='intro'>
  <div className='box2'>
-   <h1>INTRO</h1>
-   <p>I am looking to change the lives of every child and martian alike who has interest in the beautiful game of basketball. My biggest secret is to never dunk until the midway point of the year</p>
- </div>
+   <h1>LARGE GROUP</h1>
+<p>Groups of 7 or more are ideal of teams or groups that would like to put together the individual work with the ability to show even more realistic in-game situations</p>  
+</div>
 </section>
 </div>
   )

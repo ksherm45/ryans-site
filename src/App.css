@@ -1,6 +1,6 @@
 body {
   height: vh 100%;
-  background: linear-gradient(to bottom right, #FFD700, #FFA500, #F0E68C);
+  background: linear-gradient(to bottom right, #FFD700, #75cdf0, #F0E68C);
   color: #201a33;
 }
 h1{
@@ -11,6 +11,10 @@ h1{
 p {
   display: flex;
   justify-content: center;
+  font-size: larger;
+}
+ul {
+  font-size: larger
 }
 
 .Navbar {
@@ -19,7 +23,7 @@ p {
   background-color:#75cdf0;
   color: beige;
   height: 75px;
-  width: 70%;
+  width: 55%;
   border: solid 5px rgb(249, 141, 34);
 
   align-items: center;
@@ -63,6 +67,8 @@ p {
 img {
 
   border:  5px solid rgb(249, 141, 34);
+  height: 65vh;
+  width: 60vh;
 }
 
 .Profile {
@@ -109,7 +115,7 @@ padding-top: 10px;
 }
 
 .box3 {
-  height: 20.2vh;
+  height: 28.2vh;
   width: 40%;
   background-color:#75cdf0;
   margin: 20px;
@@ -238,17 +244,3 @@ button:hover {
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-
-
-
-
-
-
-
-  
-
-    
-
-
-
-

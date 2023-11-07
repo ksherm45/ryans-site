@@ -3,8 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage/HomePage";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
-import ProfessionalCareerPage from "./pages/ProfessionalCareerPage/ProfessionalCareerPage";
-import CollegeCareerPage from "./pages/CollegeCareerPage/CollegeCareerPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import PrivateTrainingPage from "./pages/ServicesPage/PrivateTrainingPage";
 import SmallGroupPage from "./pages/ServicesPage/SmallGroupPage";
@@ -25,11 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
 
-        <Route path="/services" element={<ServicesPage />} />
-
-        <Route path="/professionalcareer" element={<ProfessionalCareerPage />} />
-        
-        <Route path="/collegecareer" element={<CollegeCareerPage />} />
+        <Route path="/services" element={<ServicesPage />} />        
 
         <Route path="/contact" element={<ContactPage />} />
 
